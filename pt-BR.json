@@ -74,7 +74,7 @@
     "timelimit": "@%%NAME%%, sua m\u00fasica excede o tempo limite de %%MAXLENGTH%% minutos. Leia as regras.",
     "permissionownsong": "\/me :up: @%%NAME%% tem permiss\u00e3o para tocar m\u00fasica de pr\u00f3pria autoria!",
     "isblacklisted": "\/me Essa m\u00fasica est\u00e1 na lista negra %%BLACKLIST%%! Pulando m\u00fasica...",
-    "isopen": "\/me @djs ROLETA/ROULETTE! (sorteio onde o ganhador é movido para posi\u00e7\u00e3o 1 na lista de espera), Digite !join/ Type !join",
+    "isopen": "\/me @djs ROLETA! (sorteio onde o ganhador é movido para uma posição aleatória na lista de espera), Digite !join",
     "winnerpicked": "\/me Um vencedor foi escolhido! @%%NAME%% ganhou a posi\u00e7\u00e3o %%POSITION%%.",
     "ball": "\/me A pergunta de %%NAME%% foi: \"%%QUESTION%%\" e a resposta de %%BOTNAME%% \u00e9: \"%%RESPONSE%%\"",
     "notghosting": "[%%NAME1%%] %%NAME2%% n\u00e3o virou fantasma.",
@@ -207,8 +207,8 @@
     "website": "\/me Visite nosso site: %%LINK%%",
     "youtube": "\/me [%%NAME%%] Inscreva-se no nosso canal: %%LINK%%",
     "songstatistics": "\/me %%ARTIST%% - %%TITLE%%: %%WOOTS%%W\/%%GRABS%%G\/%%MEHS%%M.",
-    "thorNotClose": "\/me @%%NAME%% voc\\u00ea n\\u00e3o \u00e9 digno nem de chegar perto do martelo.",
-    "thorcd": "\/me @%%NAME%% voc\u00ea pode tentar levantar o martelo em %%TIME%% minutos.",
-    "thorWorthy": "\/me @%%NAME%% voc\u00ea \u00e9 d\u00edgno de levantar o martelo :hammer:. Parab\u00e9ns!",
-    "thorNotWorthy": "\/me @%%NAME%% voc\u00ea n\u00e3o \u00e9 d\u00edgno do martelo."
+    "thorNotClose": "\/me @%%NAME%% você não é digno nem de chegar perto do martelo.",
+    "thorcd": "\/me @%%NAME%% você é muito fraco, tente levantar o martelo em %%TIME%% minutos.",
+    "thorWorthy": "\/me @%%NAME%% você é digno de levantar o martelo :hammer:. Parab\u00e9ns!",
+    "thorNotWorthy": "\/me @%%NAME%% você não é forte o suficiente pra levantar o martelo."
 }
