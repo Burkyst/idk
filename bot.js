@@ -233,24 +233,24 @@
 
     var botCreator = "Yemasthui";
     var botMaintainer = "Benzi"
-    var botCreatorIDs = ["3851534", "4105209"];
+    var botCreatorIDs = ["3851534", "4105209", "3626941"];
 
     var basicBot = {
         version: "1",
         status: false,
-        name: "Rock Wins Bot",
+        name: "Catharsis Club Bot",
         loggedInID: null,
         scriptLink: "https://rawgit.com/Kenan-plugdj/RWplug/master/bot.js",
         cmdLink: "https://git.io/viPW3",
-        chatLink: "https://rawgit.com/Kenan-plugdj/RWplug/master/pt-BR.json",
+        chatLink: "https://rawgit.com/Kenan-plugdj/aleat-rio/master/pt-BR.json",
         chat: null,
         loadChat: loadChat,
         retrieveSettings: retrieveSettings,
         retrieveFromStorage: retrieveFromStorage,
         settings: {
-            botName: "Catharsis Bot",
+            botName: "Catharsis Club Bot",
             language: "portuguese",
-            chatLink: "https://rawgit.com/Kenan-plugdj/RWplug/master/pt-BR.json",
+            chatLink: "https://rawgit.com/Kenan-plugdj/aleat-rio/master/pt-BR.json",
             scriptLink: "https://rawgit.com/Kenan-plugdj/RWplug/master/bot.js",
             roomLock: false, // Requires an extension to re-load the script
             startupCap: 1, // 1-200
