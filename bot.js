@@ -248,7 +248,7 @@
         retrieveSettings: retrieveSettings,
         retrieveFromStorage: retrieveFromStorage,
         settings: {
-            botName: "Rock Wins Bot",
+            botName: "Catharsis Bot",
             language: "portuguese",
             chatLink: "https://rawgit.com/Kenan-plugdj/RWplug/master/pt-BR.json",
             scriptLink: "https://rawgit.com/Kenan-plugdj/RWplug/master/bot.js",
@@ -278,18 +278,13 @@
             autodisable: false,
             commandCooldown: 15,
             usercommandsEnabled: true,
-            thorCommand: false,
-            thorCooldown: 10,
+            thorCommand: true,
+            thorCooldown: 8,
             skipPosition: 1,
             skipReasons: [
-                ["history", "This song is in the history. "],
-                ["nsfw", "The song contained was NSFW. "],
-                ["sound", "The song had bad sound quality or no sound. "],
-                ["theme", "This song does not fit the room theme. "],
-                ["un", "The song was unavailable for some users. "],
-                ["histórico", "Você tocou uma música que está no histórico, observe antes de tocar. "],
+                ["histórico", "Desculpe, você tocou uma música que está no histórico. "],
                 ["ind", "A música que você tocou estava indisponível para alguns usuários. "],
-                ["nudes", "A música continha conteúdo impróprio (NSFW). "],
+                ["nudes", "A música continha conteúdo impróprio (NSFW), cuidado com as regras. "],
                 ["som", "A música que você tocou tinha qualidade de som ruim ou sem som. "],
                 ["tema", "A música que você tocou não se encaixa no tema da sala. "]
             ],
@@ -302,14 +297,14 @@
             etaRestriction: false,
             welcome: true,
             opLink: null,
-            rulesLink:"http://prnt.sc/c16kj6",
-            regrasLink: "http://prnt.sc/c152aa",
-            themeLink: "Rock'n'roll, todos os subgêneros do rock",
-            fbLink: "http://bit.ly/2cxnE6a",
+            rulesLink:null,
+            regrasLink: "https://goo.gl/P7N1CV",
+            themeLink: "O Tema é Livre",
+            fbLink: "https://goo.gl/WUZGzz",
             youtubeLink: null,
             website: null,
-            intervalMessages: ["@djs Vejam as regras digitando !regras, see the rules typing !rules.","Entre para o nosso grupo no Facebook http://bit.ly/2cxnE6a","Tema: Rock'n'roll, todos os subgêneros do rock.","Veja os comandos do bot digitando !cmds.","Digite !autowoot e instale um dos autowoots, veja a costumização da sala e outras vantagens http://i.imgur.com/kd0V2VX.png.","Temos um grupo da sala no Whatsapp, você pode entrar usando o link de convite que está na descrição da sala ou no nosso grupo do facebook."],
-            messageInterval: 3,
+            intervalMessages: ["Entre para o nosso grupo no Facebook https://goo.gl/WUZGzz","Tema: Livre.","Veja os comandos do bot digitando !cmds.","Digite !autowoot e instale um dos autowoots (votar automaticamente em lega, ver imagens no chat, ver a customização da sala e etc)."],
+            messageInterval: 5,
             songstats: false,
             commandLiteral: "!",
             blacklists: {
@@ -3238,7 +3233,7 @@
 
             swapCommand: {
                 command: 'swap',
-                rank: 'manager',
+                rank: 'bouncer',
                 type: 'startsWith',
                 functionality: function (chat, cmd) {
                     if (this.type === 'exact' && chat.message.length !== cmd.length) return void (0);
