@@ -2867,6 +2867,30 @@
                     }
                 }
             },
+            
+            propsCommand: {
+                command: 'props',
+                rank: 'user',
+                type: 'startsWith',
+                getProps: function(chat) {
+                    var c = Math.floor(Math.random() * basicBot.chat.props.length);
+                    return basicBot.chat.props[c];
+                },
+                functionality: function(chat, cmd) {
+                    if (this.type === 'exact' && chat.message.length !== cmd.length) return void(0);
+                    if (!basicBot.commands.executable(this.rank, chat)) return void(0);
+                    else {
+                        var dj = API.getDJ();
+                        var name = dj.username;
+
+                        API.sendChat(subChat(basicBot.chat.propsChat, {
+                                    nameto: dj.username,
+                                    namefrom: chat.un,
+                                    react: this.getProps()
+                                }));
+                    }
+                }
+            },
 
             refreshCommand: {
                 command: 'refresh',
