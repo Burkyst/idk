@@ -2886,7 +2886,7 @@
                         API.sendChat(subChat(basicBot.chat.propsChat, {
                                     nameto: dj.username,
                                     namefrom: chat.un,
-                                    react: this.getProps()
+                                    props: this.getProps()
                                 }));
                     }
                 }
