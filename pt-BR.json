@@ -216,7 +216,7 @@
     "youtube": "\/me [%%NAME%%] Inscreva-se no nosso canal: %%LINK%%",
     "songstatistics": "\/me %%ARTIST%% - %%TITLE%%: %%WOOTS%%W\/%%GRABS%%G\/%%MEHS%%M.",
     "thorNotClose": "\/me @%%NAME%% você não é digno nem de chegar perto do martelo.",
-    "thorcd": "\/me @%%NAME%% você é muito fraco, tente levantar o martelo em %%TIME%% minutos.",
-    "thorWorthy": "\/me @%%NAME%% você é digno de levantar o martelo :hammer:. Parab\u00e9ns!",
+    "thorcd": "\/me @%%NAME%% você não é capaz de levantar o martelo, tente novamente em %%TIME%% minutos.",
+    "thorWorthy": "\/me @%%NAME%% você é digno de levantar o martelo :hammer:. Parab\u00e9ns! Aeee.",
     "thorNotWorthy": "\/me @%%NAME%% você não é forte o suficiente pra levantar o martelo."
 }
