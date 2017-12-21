@@ -262,7 +262,7 @@
             cmdDeletion: true,
             maximumAfk: 120,
             afkRemoval: false,
-            maximumDc: 90,
+            maximumDc: 60,
             bouncerPlus: true,
             blacklistEnabled: false,
             lockdownEnabled: false,
@@ -279,7 +279,7 @@
             commandCooldown: 15,
             usercommandsEnabled: true,
             thorCommand: true,
-            thorCooldown: 8,
+            thorCooldown: 10,
             skipPosition: 1,
             skipReasons: [
                 ["histórico", "Desculpe, você tocou uma música que está no histórico. "],
@@ -303,8 +303,8 @@
             fbLink: "https://goo.gl/WUZGzz",
             youtubeLink: null,
             website: null,
-            intervalMessages: ["Entre para o nosso grupo no Facebook https://goo.gl/WUZGzz","Tema: Livre.","Veja os comandos do bot digitando !cmds.","Digite !autowoot e instale um dos autowoots (votar automaticamente em lega, ver imagens no chat, ver a customização da sala e etc)."],
-            messageInterval: 5,
+            intervalMessages: ["Entre para o nosso grupo no Facebook https://goo.gl/WUZGzz", "Tema: Livre.", "Veja os comandos do bot digitando !cmds.", "Digite !autowoot e instale um dos autowoots (votar automaticamente em lega, ver imagens no chat, ver a customização da sala e etc)."],
+            messageInterval: 4,
             songstats: false,
             commandLiteral: "!",
             blacklists: {
@@ -2874,7 +2874,7 @@
                 type: 'startsWith',
                 getProps: function(chat) {
                     var c = Math.floor(Math.random() * basicBot.chat.props.length);
-                    return basicBot.chat.lixo[c];
+                    return basicBot.chat.props[c];
                 },
                 functionality: function(chat, cmd) {
                     if (this.type === 'exact' && chat.message.length !== cmd.length) return void(0);
