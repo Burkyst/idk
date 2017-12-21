@@ -24,10 +24,11 @@
     
     "props": [
         "Não estou bem com esse tiro em forma de música.",
-        "Musica impressionante mesmo! <3",
+        "Música impressionante :ok_hand:",
         "B E A T :ballot_box_with_check: Q U A L I D A D E :white_check_mark:.",
         "Você poderia tocar essa música para mim?",
         "Que Hino!",
+        "Close certo",
         "Que hinão da Poha."
     ],
     
@@ -216,7 +217,7 @@
     "voteratio": "\/me [@%%NAME%%] @%%USERNAME%% ~ woots: %%WOOT%%, mehs: %%MEHS%%, taxa\/propor\u00e7\u00e3o (w\/m): %%RATIO%%.",
     "website": "\/me Visite nosso site: %%LINK%%",
     "youtube": "\/me [%%NAME%%] Inscreva-se no nosso canal: %%LINK%%",
-    "propsChat":"[ @%%NAMEFROM%% ] Disse, \"%%PROPS%%\"  para @%%NAMETO%%",
+    "propsChat":" @%%NAMEFROM%% Disse, \"%%PROPS%%\"  para @%%NAMETO%%",
     "songstatistics": "\/me %%ARTIST%% - %%TITLE%%: %%WOOTS%%W\/%%GRABS%%G\/%%MEHS%%M.",
     "thorNotClose": "\/me @%%NAME%% você não é digno nem de chegar perto do martelo.",
     "thorcd": "\/me @%%NAME%% você não é capaz de levantar o martelo, tente novamente em %%TIME%% minutos.",
