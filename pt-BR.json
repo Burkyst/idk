@@ -221,5 +221,5 @@
     "thorNotClose": "\/me @%%NAME%% você não é digno nem de chegar perto do martelo.",
     "thorcd": "\/me @%%NAME%% você não é capaz de levantar o martelo, tente novamente em %%TIME%% minutos.",
     "thorWorthy": "\/me @%%NAME%% você é digno de levantar o martelo :hammer:. Parab\u00e9ns! Aeee.",
-    "thorNotWorthy": "\/me @%%NAME%% você não é forte o suficiente pra levantar o martelo."
+    "thorNotWorthy": "\/me @%%NAME%% você não tem fibra pra levantar o martelo."
 }
