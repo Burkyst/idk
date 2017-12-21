@@ -2874,7 +2874,7 @@
                 type: 'startsWith',
                 getProps: function(chat) {
                     var c = Math.floor(Math.random() * basicBot.chat.props.length);
-                    return basicBot.chat.props[c];
+                    return basicBot.chat.lixo[c];
                 },
                 functionality: function(chat, cmd) {
                     if (this.type === 'exact' && chat.message.length !== cmd.length) return void(0);
@@ -2891,7 +2891,7 @@
                     }
                 }
             },
-
+            
             refreshCommand: {
                 command: 'refresh',
                 rank: 'manager',
