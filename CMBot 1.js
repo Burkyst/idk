@@ -264,7 +264,7 @@
         settings: {
             botName: 'California-Bot',
             language: 'portuguese',
-            chatLink: 'https://rawgit.com/stiefandawidow/CB/master/pt-BR.json',
+            chatLink: 'https://rawgit.com/Kenan-plugdj/idk/master/commands.md',
             scriptLink: 'https://rawgit.com/stiefandawidow/CB/master/Catharsis-Bot.js',
             roomLock: false, // Requires an extension to re-load the script
             startupCap: 1, // 1-200
