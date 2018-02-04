@@ -256,7 +256,7 @@
         loggedInID: null,
         scriptLink: 'https://rawgit.com/Kenan-plugdj/idk/master/CMBot.js',
         cmdLink: 'https://rawgit.com/Kenan-plugdj/idk/master/commands.md',
-        chatLink: 'https://rawgit.com/Kenan-plugdj/idk/master/pt-BR.json',
+        chatLink: 'https://rawgit.com/Kenan-plugdj/idk/master/pt-br.json',
         chat: null,
         loadChat: loadChat,
         retrieveSettings: retrieveSettings,
@@ -264,7 +264,7 @@
         settings: {
             botName: 'California-Bot',
             language: 'portuguese',
-            chatLink: 'https://rawgit.com/Kenan-plugdj/idk/master/pt-BR.json',
+            chatLink: 'https://rawgit.com/Kenan-plugdj/idk/master/pt-br.json',
             scriptLink: 'https://rawgit.com/Kenan-plugdj/idk/master/CMBot.js',
             roomLock: false, // Requires an extension to re-load the script
             startupCap: 1, // 1-200
