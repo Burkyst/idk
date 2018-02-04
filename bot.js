@@ -238,9 +238,9 @@
     var basicBot = {
         version: "1",
         status: false,
-        name: "Catharsis Club Bot",
+        name: "California's Bot",
         loggedInID: null,
-        scriptLink: "https://rawgit.com/Kenan-plugdj/RWplug/master/bot.js",
+        scriptLink: "https://rawgit.com/Kenan-plugdj/idk/master/bot.js",
         cmdLink: "https://git.io/viPW3",
         chatLink: "https://rawgit.com/Kenan-plugdj/aleat-rio/master/pt-BR.json",
         chat: null,
@@ -248,10 +248,10 @@
         retrieveSettings: retrieveSettings,
         retrieveFromStorage: retrieveFromStorage,
         settings: {
-            botName: "Catharsis Club Bot",
+            botName: "California's Bot",
             language: "portuguese",
-            chatLink: "https://rawgit.com/Kenan-plugdj/aleat-rio/master/pt-BR.json",
-            scriptLink: "https://rawgit.com/Kenan-plugdj/RWplug/master/bot.js",
+            chatLink: "https://rawgit.com/Kenan-plugdj/idk/master/pt-BR.json",
+            scriptLink: "https://rawgit.com/Kenan-plugdj/idk/master/bot.js",
             roomLock: false, // Requires an extension to re-load the script
             startupCap: 1, // 1-200
             startupVolume: 100, // 0-100
@@ -303,7 +303,7 @@
             fbLink: "https://goo.gl/WUZGzz",
             youtubeLink: null,
             website: null,
-            intervalMessages: ["Entre para o nosso grupo no Facebook https://goo.gl/WUZGzz", "Tema: Livre.", "Veja os comandos do bot digitando !cmds.", "Digite !autowoot e instale um dos autowoots (votar automaticamente em lega, ver imagens no chat, ver a customização da sala e etc)."],
+            intervalMessages: ["Tema: Livre.", "Veja os comandos do bot digitando !cmds.", "Digite !autowoot e instale um dos autowoots (votar automaticamente em lega, ver imagens no chat, ver a customização da sala e etc)."],
             messageInterval: 4,
             songstats: false,
             commandLiteral: "!",
