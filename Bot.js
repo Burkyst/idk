@@ -254,9 +254,9 @@
         status: false,
         name: 'Catharsis-Bot',
         loggedInID: null,
-        scriptLink: 'https://rawgit.com/stiefandawidow/CB/master/Catharsis-Bot.js',
+        scriptLink: 'https://rawgit.com/Kenan-plugdj/idk/master/Bot.js',
         cmdLink: 'https://goo.gl/hzFqu7',
-        chatLink: 'https://rawgit.com/stiefandawidow/CB/master/pt-BR.json',
+        chatLink: 'https://rawgit.com/Kenan-plugdj/idk/master/pt-BR.json',
         chat: null,
         loadChat: loadChat,
         retrieveSettings: retrieveSettings,
@@ -264,8 +264,8 @@
         settings: {
             botName: 'Catharsis-Bot',
             language: 'portuguese',
-            chatLink: 'https://rawgit.com/stiefandawidow/CB/master/pt-BR.json',
-            scriptLink: 'https://rawgit.com/stiefandawidow/CB/master/Catharsis-Bot.js',
+            chatLink: 'https://rawgit.com/Kenan-plugdj/idk/master/pt-BR.json',
+            scriptLink: 'https://rawgit.com/Kenan-plugdj/idk/master/Bot.js',
             roomLock: false, // Requires an extension to re-load the script
             startupCap: 1, // 1-200
             startupVolume: 0, // 0-100
@@ -276,7 +276,7 @@
             cmdDeletion: true,
             maximumAfk: 120,
             afkRemoval: false,
-            maximumDc: 300,
+            maximumDc: 90,
             bouncerPlus: false,
             blacklistEnabled: true,
             lockdownEnabled: false,
@@ -294,7 +294,7 @@
             autofb: true,
             autoroulette: true,
             autorules: true,
-            commandCooldown: 30,
+            commandCooldown: 25,
             usercommandsEnabled: true,
             thorCommand: true,
             thorCooldown: 10,
