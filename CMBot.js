@@ -254,9 +254,9 @@
         status: false,
         name: 'California-Bot',
         loggedInID: null,
-        scriptLink: 'https://rawgit.com/stiefandawidow/CB/master/Catharsis-Bot.js',
-        cmdLink: 'https://goo.gl/hzFqu7',
-        chatLink: 'https://rawgit.com/stiefandawidow/CB/master/pt-BR.json',
+        scriptLink: 'https://rawgit.com/Kenan-plugdj/idk/master/CMBot.js',
+        cmdLink: 'https://rawgit.com/Kenan-plugdj/idk/master/commands.md',
+        chatLink: 'https://rawgit.com/Kenan-plugdj/idk/master/pt-BR.json',
         chat: null,
         loadChat: loadChat,
         retrieveSettings: retrieveSettings,
@@ -264,20 +264,20 @@
         settings: {
             botName: 'California-Bot',
             language: 'portuguese',
-            chatLink: 'https://rawgit.com/Kenan-plugdj/idk/master/commands.md',
-            scriptLink: 'https://rawgit.com/stiefandawidow/CB/master/Catharsis-Bot.js',
+            chatLink: 'https://rawgit.com/Kenan-plugdj/idk/master/pt-BR.json',
+            scriptLink: 'https://rawgit.com/Kenan-plugdj/idk/master/CMBot.js',
             roomLock: false, // Requires an extension to re-load the script
             startupCap: 1, // 1-200
-            startupVolume: 0, // 0-100
-            startupEmoji: false, // true or false
+            startupVolume: 100, // 0-100
+            startupEmoji: true, // true or false
             autowoot: true,
             autoskip: true,
             smartSkip: true,
             cmdDeletion: true,
             maximumAfk: 120,
             afkRemoval: false,
-            maximumDc: 300,
-            bouncerPlus: false,
+            maximumDc: 90,
+            bouncerPlus: true,
             blacklistEnabled: true,
             lockdownEnabled: false,
             lockGuard: false,
@@ -285,28 +285,31 @@
             cycleGuard: true,
             maximumCycletime: 10,
             voteSkip: true,
-            voteSkipLimit: 2,
+            voteSkipLimit: 4,
             historySkip: true,
             timeGuard: true,
-            maximumSongLength: 8,
+            maximumSongLength: 7,
             autodisable: false,
-            autofav: true,
-            autofb: true,
+            autofav: false,
+            autofb: false,
             autoroulette: true,
-            autorules: true,
-            commandCooldown: 30,
+            autorules: false,
+            commandCooldown: 25,
             usercommandsEnabled: true,
             thorCommand: true,
             thorCooldown: 10,
             skipPosition: 1,
             skipReasons: [
-                ['theme', 'This song does not fit the room theme. '],
-                ['op', 'This song is on the OP list. '],
-                ['history', 'This song is in the history. '],
-                ['mix', 'You played a mix, which is against the rules. '],
-                ['sound', 'The song you played had bad sound quality or no sound. '],
-                ['nsfw', 'The song you contained was NSFW (image or sound). '],
-                ['unavailable', 'The song you played was not available for some users. ']
+                ["history", "This song is in the history. "],
+                ["nsfw", "The song contained was NSFW. "],
+                ["sound", "The song had bad sound quality or no sound. "],
+                ["theme", "This song does not fit the room theme. "],
+                ["un", "The song was unavailable for some users. "],
+                ["histórico", "Você tocou uma música que está no histórico, observe antes de tocar. "],
+                ["ind", "A música que você tocou estava indisponível para alguns usuários. "],
+                ["nudes", "A música continha conteúdo impróprio (NSFW). "],
+                ["som", "A música que você tocou tinha qualidade de som ruim ou sem som. "],
+                ["tema", "A música que você tocou não se encaixa no tema da sala. "]
             ],
             afkpositionCheck: 15,
             afkRankCheck: 'ambassador',
@@ -317,20 +320,20 @@
             etaRestriction: false,
             welcome: true,
             opLink: null,
-            rulesLink: "https://goo.gl/P7N1CV",
+            rulesLink: null,
             themeLink: null,
-            fbLink: "https://goo.gl/WUZGzz",
-            emotesLink: "https://goo.gl/tZZ4G6",
+            fbLink: null,
+            emotesLink: null,
             youtubeLink: null,
-            website: "https://goo.gl/GwPe67",
+            website: null,
             intervalMessages: [],
             messageInterval: 5,
             songstats: true,
             commandLiteral: '!',
             blacklists: {
-                NSFW: 'https://rawgit.com/stiefandawidow/CB/master/blacklists/NSFWlist.json',
-                OP: 'https://rawgit.com/stiefandawidow/CB/master/OPlist.json',
-                BANNED: 'https://rawgit.com/stiefandawidow/CB/master/blacklists/BANNEDlist.json'
+                NSFW: 'https://rawgit.com/Kenan-plugdj/idk/master/NSFWlist.json',
+                OP: 'https://rawgit.com/Kenan-plugdj/idk/master/OPlist.json',
+                BANNED: 'https://rawgit.com/Kenan-plugdj/idk/master/BANNEDlist.json'
             }
         },
         room: {
@@ -1358,11 +1361,10 @@
                 basicBot.room.roomstats.chatmessages++;
             },
             spam: [
-                'hueh', 'hu3', 'arrombado', 'filho',  'brbr', 'da puta', 'heu', 'brbr', 'kkkk', 'spoder', 'mafia', 'zuera', 'zueira',
-                'zueria', 'aehoo', 'aheu', 'porra', 'caralho', 'buceta', 'zoeira', 'fuckadmins', 'affff', 'vaisefoder', 'huenaarea',
-                'hitler', 'merda', 'huehue', 'hue', 'huehuehue', 'merda', 'pqp', 'puta', 'mulher', 'retarda', 'caralho', 'filha', 'ppk',
-                'filho da puta', 'fuder', 'foder', 'hua', 'cú', 'foda', 'pinto', 'desgraça', 'ahue', 'modafuka', 'modafoka', 'mudafuka', 'mudafoka', 
-                'arrombada', 'biscate', 'burra', 'safada', 'otario', 'besta', 'cachorra', 'idiota', 'baitola', 'cuzão', 'sonsa', 'foda'
+                'arrombado', 'da puta', 'spoder', 'mafia', 'aheu', 'porra', 'caralho', 'buceta', 'fuckadmins', 'affff', 'vaisefoder', 'huenaarea',
+                'hitler', 'merda', 'huehue', 'hue', 'huehuehue', 'merda', 'puta', 'mulher', 'retarda', 'caralho', 'ppk',
+                'filho da puta', 'fuder', 'foder', 'cú', 'pinto', 'desgraça', 'ahue', 'modafuka', 'modafoka', 'mudafuka', 'mudafoka', 
+                'arrombada', 'biscate', 'safada', 'otario', 'besta', 'cachorra', 'idiota', 'baitola', 'cuzão', 'sonsa'
             ],
             curses: [
                 'nigger', 'faggot', 'nigga', 'niqqa', 'motherfucker', 'modafocka'
@@ -1996,7 +1998,7 @@
             },
 
             ballCommand: {
-                command: ['8ball', 'ask'],
+                command: ['8ball', 'ask', 'pergunta'],
                 rank: 'user',
                 type: 'startsWith',
                 functionality: function(chat, cmd) {
@@ -2118,7 +2120,7 @@
             },
 
             bouncerPlusCommand: {
-                command: 'bouncer+',
+                command: ['bouncer+','b+'],
                 rank: 'manager',
                 type: 'exact',
                 functionality: function(chat, cmd) {
@@ -2233,7 +2235,7 @@
             },
 
             commandsCommand: {
-                command: 'comandos',
+                command: ['comandos', 'commands'],
                 rank: 'user',
                 type: 'exact',
                 functionality: function(chat, cmd) {
@@ -2249,7 +2251,7 @@
             },
 
             cookieCommand: {
-                command: 'cookie',
+                command: ['cookie','biscoito'],
                 rank: 'user',
                 type: 'startsWith',
                 getCookie: function(chat) {
