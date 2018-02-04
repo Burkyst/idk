@@ -1,8 +1,8 @@
 {
-   "room": "Rock Wins",
+   "room": "Californa Music|BR",
    "author": "Kenan",
    "icon": null,
-   "css": "https://rawgit.com/Kenan-plugdj/RWplug/master/rw.css",
+   "css": "https://rawgit.com/Kenan-plugdj/idk/master/CM.css",
    "rules": {
       "allowAutorespond": true,
       "allowAutowoot": true,
@@ -23,12 +23,12 @@
       "rdj": "#ac76ff",
       "subscriber": "#C59840",
       "silversubscriber": "#A1A6B3",
-      "friend": "#90AD2F",
+      "friend": null,
       "user": "#777F92"
    },
    "images": {
       "background": "http://i.imgur.com/WTylHRy.png",
-      "playback": "http://i.imgur.com/ZGKtDDE.png",
+      "playback": null,
       "admin": null,
       "ambassador": null,
       "host": null,
