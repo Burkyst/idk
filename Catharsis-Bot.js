@@ -250,11 +250,11 @@
     var botCreatorIDs = ['3851534', '4105209'];
 
     var basicBot = {
-        version: '2.10.0',
+        version: '1.0',
         status: false,
         name: 'Catharsis-Bot',
         loggedInID: null,
-        scriptLink: 'https://rawgit.com/stiefandawidow/CB/master/Catharsis-Bot.js',
+        scriptLink: 'https://rawgit.com/Kenan-plugdj/idk/master/Catharsis-Bot.js',
         cmdLink: 'https://goo.gl/hzFqu7',
         chatLink: 'https://rawgit.com/stiefandawidow/CB/master/pt-BR.json',
         chat: null,
@@ -262,10 +262,10 @@
         retrieveSettings: retrieveSettings,
         retrieveFromStorage: retrieveFromStorage,
         settings: {
-            botName: 'Catharsis-Bot',
+            botName: 'California Bot',
             language: 'portuguese',
-            chatLink: 'https://rawgit.com/stiefandawidow/CB/master/pt-BR.json',
-            scriptLink: 'https://rawgit.com/stiefandawidow/CB/master/Catharsis-Bot.js',
+            chatLink: 'https://rawgit.com/Kenan-plugdj/idk/master/pt-BR.json',
+            scriptLink: 'https://rawgit.com/Kenan-plugdj/idk/master/Catharsis-Bot.js',
             roomLock: false, // Requires an extension to re-load the script
             startupCap: 1, // 1-200
             startupVolume: 0, // 0-100
@@ -276,7 +276,7 @@
             cmdDeletion: true,
             maximumAfk: 120,
             afkRemoval: false,
-            maximumDc: 300,
+            maximumDc: 90,
             bouncerPlus: false,
             blacklistEnabled: true,
             lockdownEnabled: false,
@@ -288,13 +288,13 @@
             voteSkipLimit: 2,
             historySkip: true,
             timeGuard: true,
-            maximumSongLength: 8,
+            maximumSongLength: 7,
             autodisable: false,
-            autofav: true,
-            autofb: true,
+            autofav: null,
+            autofb: null,
             autoroulette: true,
             autorules: true,
-            commandCooldown: 30,
+            commandCooldown: 25,
             usercommandsEnabled: true,
             thorCommand: true,
             thorCooldown: 10,
