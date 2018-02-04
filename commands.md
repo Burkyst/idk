@@ -6,11 +6,6 @@ Comandos que estiverem ~~exemplo~~ estão indisponíveis.
 
 Anfitrião e Coanfitriões
 -------
-|Comando | Argumento |  Descrição |
-|:------:|:---------:|:--------------------------------------:|
-|*!afklimit* | *X*| Define o tempo máximo de AFK |
-|*!botname* |  *nome do bot* | Altera o nome padrão do bot |
-
 Coordenadores 
 -------
 |Comando | Argumento |  Descrição |
@@ -22,12 +17,10 @@ Coordenadores
 |*!lock* | | Trava a lista de espera |
 |*!lockskip* | *razão* | Pula, trava a lista e move o Dj de volta para o topo da lista |
 |*!logout* | | Desloga a conta que estiver hospedando o bot |
-|*!maxlength* | X | Especifica a duração máxima permitida das músicas |
 |*!move* | *@user* *X* | Move o usuário para posição X na lista de espera, posição padrão 1 |
 |*!refresh* | | Refresca o navegador de quem estiver rodando o bot |
 |*!reload* | | Recarrega o bot |
-|*!roulette*/ *!roleta* | | Inicia a roleta (sorteio que move o ganhador para o 1º lugar na lista de espera) |
-|*!skippos* | *X* | Define a posição para mover pelo lockskip ao pular um Dj |
+|*!roulette*/ *!roleta* | | Inicia a roleta (sorteio que move o ganhador para um lugar aleatório da lista de espera) |
 |*!unlock* | | Destrava a lista de espera |
 |*!usercmdcd* | *X* | Define o delay sobre os comandos para usuários cinzas |
 |*!usercommands* | | Alterna os comandos de usuários cinzas |
@@ -100,11 +93,11 @@ Usuários
 |*!join* | | Juntar-se na roleta |
 |*!leave* | | Deixar da roleta |
 |*!link* | | Quando usuário é o Dj, dá um link para a música atual |
-|*~~!op~~* | | ~~Link para a lista de músicas mais tocadas~~ |
+|*!op* | | Link para a lista de músicas mais tocadas |
 |*!ping* | | Pong! |
 |*!regras* | | Dá link das regras em português |
 |*!rules* | | Dá link das regras em inglês |
 |*!theme* / *!tema* | | Dá informação do tema da sala |
-|*~~!thor~~* | | ~~Usuário é movido a posição 1 na lista de espera se ele for digno do martelo de Thor, caso contrário será movido para último na lista.~~ |
+|*!thor | | Usuário é movido a posição 1 na lista de espera se ele for digno do martelo de Thor, caso contrário será movido para último lugar na lista de espera|
 |*~~!website~~* | | ~~Dá link para o website da sala~~ |
 |*~~!youtube~~* | | ~~Dá link do canal no youtube da sala~~ |
