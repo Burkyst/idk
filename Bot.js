@@ -116,7 +116,7 @@
 
     var loadChat = function(cb) {
         if (!cb) cb = function() {};
-        $.get('https://rawgit.com/stiefandawidow/CB/master/langIndex.json', function(json) {
+        $.get('https://rawgit.com/Kenan-plugdj/idk/master/langIndex.json', function(json) {
             var link = basicBot.chatLink;
             if (json !== null && typeof json !== 'undefined') {
                 langIndex = json;
