@@ -1,7 +1,12 @@
-# aleat-rio
-nada a declarar
+Para rodar o bot.
+Abaixo copie e cole no seus favoritos:
+javascript:(function(){$.getScript('https://rawgit.com/Kenan-plugdj/idk/master/CMBot.js');})();
 
-emotes abaixo
+Nada mais a declarar. 
+
+
+# aleat-rio
+Prováveis emotes abaixo:
 
 http://i.imgur.com/7Aevn10.gif	:facepalmgif2:
 http://i.imgur.com/511cPBl.jpg	:doge2:
