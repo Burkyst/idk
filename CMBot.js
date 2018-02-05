@@ -4366,8 +4366,8 @@
                 rank: 'user',
                 type: 'startsWith',
                 getXaveco :function(chat) {
-                    var c = Math.floor(Math.random() * basicBot.chat.xaveco.length);
-                    return basicBot.chat.xaveco[c];
+                    var p = Math.floor(Math.random() * basicBot.chat.xaveco.length);
+                    return basicBot.chat.xaveco[p];
                 },
                 functionality: function(chat, cmd) {
                     if (this.type === 'exact' && chat.message.length !== cmd.length) return void(0);
