@@ -3494,8 +3494,8 @@
             elogioCommand: {
                 command: ['elogio','elogiar'],
                 rank: 'user',
-                type: 'startsWith',
-                getReact: function(chat) {
+                type: 'exact',
+                getElogio: function(chat) {
                     var c = Math.floor(Math.random() * basicBot.chat.elogio.length);
                     return basicBot.chat.elogio[c];
                 },
