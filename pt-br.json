@@ -55,8 +55,14 @@
         "N\u00e3o aposte nisso.",
         "Esque\u00e7a isso."
     ],
-    "xaveco": [
-        "
+    
+    "cantada": [
+        "Se as estrelas fossem tão lindas quanto você, eu passaria noites em claro olhando para o céu.",
+        "Você sabe qual é o motivo do meu sorriso todos os dias? A primeira palavra dessa frase.",
+        "Queria te dar um poema… Mas você é o verso mais lindo que a vida já escreveu.",
+        "Se nós estivéssemos num deserto eu diria que você é uma miragem."
+    ],    
+
     "elogio": [
         "Ótima musica",
         "Que hino cara",
@@ -99,6 +105,7 @@
         "Meu amor é que nem Malhação NÃO TERMINA NUNCA!",
         "Sua mãe é uma ostra???? Como pode ter uma pérola assim em casa?",
         "Me chama de tabela periódica e diz que rola uma química entre nós.",
+        "Me chama de previsão do tempo e diz que tá rolando um clima.",
         "Tem um brigadeiro e um bejinho em cima da mesa. O brigadeiro rolou e caiu. E o beijinho, será que rola?",
         "Você não é um pescoço, mas mexeu com a minha cabeça! :cupid:",
         "Ei, você gosta de achocolatado?! Porque eu posso ser Toddynho seu :cupid:",
@@ -283,14 +290,18 @@
     "thorcd": "\/me @%%NAME%% voc\u00ea poderá tentar levantar o martelo em %%TIME%% minutos.",
     "thorWorthy": "\/me @%%NAME%% voc\u00ea \u00e9 d\u00edgno do martelo :hammer:. Parab\u00e9ns! :uau: :parabains:",
     "thorNotWorthy": "\/me @%%NAME%% voc\u00ea n\u00e3o \u00e9 d\u00edgno nem de chegar perto do martelo!",
-    "prop": "\/me @%%NAMEFROM%% disse, \"%%PROP%%\" para @%%DJ%%.",
+    "elogio": "\/me @%%NAMEFROM%% disse, \"%%ELOGIO%%\" para @%%DJ%%.",
     "eatkiss": "\/me",
     "nouserkiss": "\/me N\u00e3o vejo %%NAME%% na sala.",
     "selfkiss": "\/me",
-    "kiss": "\/me %%NAMEFROM%% %%KISS%% @%%NAMETO%% :kiss:",
     "eatcantadas": "\/me",
     "nousercantadas": "\/me N\u00e3o vejo %%NAME%% na sala.",
     "selfcantadas": "\/me",
-    "cantadas": "\/me %%NAMEFROM%% lança chaveco: %%CANTADAS%% @%%NAMETO%%"
+    "cantadas": "\/me %%NAMEFROM%% lança uma cantada: %%CANTADAS%% @%%NAMETO%%",
+    "kiss": "\/me %%NAMEFROM%% %%KISS%% @%%NAMETO%% :kiss:",
+    "eatxavecos": "\/me",
+    "nouserxaveco": "\/me N\u00e3o vejo %%NAME%% na sala.",
+    "selfxaveco": "\/me",
+    "xaveco": "\/me %%NAMEFROM%% lança um xaveco: %%XAVECO%% @%%NAMETO%%"
    
 }
