@@ -4377,24 +4377,24 @@
 
                         var space = msg.indexOf(' ');
                         if (space === -1) {
-                            API.sendChat(basicBot.chat.bot2);
+                            API.sendChat(basicBot.chat.botXaveco);
                             return false;
                         } else {
                             var name = msg.substring(space + 2);
                             var user = basicBot.userUtilities.lookupUserName(name);
                             if (user === false || !user.inRoom) {
-                                return API.sendChat(subChat(basicBot.chat.nouser2, {
+                                return API.sendChat(subChat(basicBot.chat.nouserXaveco, {
                                     name: name
                                 }));
                             } else if (user.username === chat.un) {
-                                return API.sendChat(subChat(basicBot.chat.self2, {
+                                return API.sendChat(subChat(basicBot.chat.selfXaveco, {
                                     name: name
                                 }));
                             } else {
-                                return API.sendChat(subChat(basicBot.chat.2s, {
+                                return API.sendChat(subChat(basicBot.chat.xavecos, {
                                     nameto: user.username,
                                     namefrom: chat.un,
-                                    2: this.get2()
+                                    xaveco: this.getXaveco()
                                 }));
                             }
                         }
