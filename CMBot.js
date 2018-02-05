@@ -3494,25 +3494,27 @@
             elogioCommand: {
                 command: ['elogio','elogiar'],
                 rank: 'user',
-                type: 'exact',
-                getElogio: function (chat) {
-                    var p = Math.floor(Math.random() * basicBot.chat.elogio.length);
-                    return basicBot.chat.elogio[p];
+                type: 'startsWith',
+                getReact: function(chat) {
+                    var c = Math.floor(Math.random() * basicBot.chat.elogio.length);
+                    return basicBot.chat.elogio[c];
                 },
-                functionality: function (chat, cmd) {
-                    if (this.type === 'exact' && chat.message.length !== cmd.length) return void (0);
-                    if (!basicBot.commands.executable(this.rank, chat)) return void (0);
-                        else {
-                            var msg = chat.message;
-                            var space = msg.indexOf(' ');
-                            var name = msg.substring(space + 2);
-                            var user = basicBot.userUtilities.lookupUserName(name);
-                            var dj = API.getDJ().username;
-                            return API.sendChat(subChat(basicBot.chat.elogio, {namefrom: chat.un, dj: dj, prop: this.getElogio()}));
-                                }
-                    	       }
-                        },         
+                functionality: function(chat, cmd) {
+                    if (this.type === 'exact' && chat.message.length !== cmd.length) return void(0);
+                    if (!basicBot.commands.executable(this.rank, chat)) return void(0);
+                    else {
+                        var dj = API.getDJ();
+                        var name = dj.username;
 
+                        API.sendChat(subChat(basicBot.chat.elogioChat, {
+                                    nameto: dj.username,
+                                    namefrom: chat.un,
+                                    elogio: this.getElogio()
+                                }));
+                    }
+                }
+            },
+         
             refreshCommand: {
                 command: 'refresh',
                 rank: 'manager',
