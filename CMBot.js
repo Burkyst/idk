@@ -3508,7 +3508,7 @@
                             var name = msg.substring(space + 2);
                             var user = basicBot.userUtilities.lookupUserName(name);
                             var dj = API.getDJ().username;
-                            return API.sendChat(subChat(basicBot.chat.prop, {namefrom: chat.un, dj: dj, prop: this.getElogio()}));
+                            return API.sendChat(subChat(basicBot.chat.elogio, {namefrom: chat.un, dj: dj, prop: this.getElogio()}));
                                 }
                     	       }
                         },         
