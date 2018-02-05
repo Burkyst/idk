@@ -4361,6 +4361,46 @@
                     }
                 }
             },
+            xavecoCommand: {
+             command: ['xavecar','derreter'],
+                rank: 'user',
+                type: 'startsWith',
+                getXaveco :function(chat) {
+                    var c = Math.floor(Math.random() * basicBot.chat.xaveco.length);
+                    return basicBot.chat.xaveco[c];
+                },
+                functionality: function(chat, cmd) {
+                    if (this.type === 'exact' && chat.message.length !== cmd.length) return void(0);
+                    if (!basicBot.commands.executable(this.rank, chat)) return void(0);
+                    else {
+                        var msg = chat.message;
+
+                        var space = msg.indexOf(' ');
+                        if (space === -1) {
+                            API.sendChat(basicBot.chat.bot2);
+                            return false;
+                        } else {
+                            var name = msg.substring(space + 2);
+                            var user = basicBot.userUtilities.lookupUserName(name);
+                            if (user === false || !user.inRoom) {
+                                return API.sendChat(subChat(basicBot.chat.nouser2, {
+                                    name: name
+                                }));
+                            } else if (user.username === chat.un) {
+                                return API.sendChat(subChat(basicBot.chat.self2, {
+                                    name: name
+                                }));
+                            } else {
+                                return API.sendChat(subChat(basicBot.chat.2s, {
+                                    nameto: user.username,
+                                    namefrom: chat.un,
+                                    2: this.get2()
+                                }));
+                            }
+                        }
+                    }
+                }
+            },
 
             websiteCommand: {
                 command: 'website',
