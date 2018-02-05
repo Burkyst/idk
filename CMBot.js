@@ -3492,7 +3492,7 @@
             },         
          
             elogioCommand: {
-                command: ['elogio','elogiar],
+                command: ['elogio','elogiar'],
                 rank: 'user',
                 type: 'exact',
                 getElogio: function (chat) {
