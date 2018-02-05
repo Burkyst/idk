@@ -4391,7 +4391,7 @@
                                     name: name
                                 }));
                             } else {
-                                return API.sendChat(subChat(basicBot.chat.xavecos, {
+                                return API.sendChat(subChat(basicBot.chat.xaveco, {
                                     nameto: user.username,
                                     namefrom: chat.un,
                                     xaveco: this.getXaveco()
