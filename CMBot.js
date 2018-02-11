@@ -3491,13 +3491,13 @@
                 }
             },
             
-            elogioCommand: {
+            propsCommand: {
                 command: ['props','elogiar','elogio'],
                 rank: 'user',
                 type: 'exact',
-                getElogio: function (chat) {
-                    var p = Math.floor(Math.random() * basicBot.chat.elogio.length);
-                    return basicBot.chat.elogio[p];
+                getProps: function (chat) {
+                    var p = Math.floor(Math.random() * basicBot.chat.props.length);
+                    return basicBot.chat.props[p];
                 },
                 functionality: function (chat, cmd) {
                     if (this.type === 'exact' && chat.message.length !== cmd.length) return void (0);
@@ -3508,10 +3508,11 @@
                             var name = msg.substring(space + 2);
                             var user = basicBot.userUtilities.lookupUserName(name);
                             var dj = API.getDJ().username;
-                            return API.sendChat(subChat(basicBot.chat.prop, {namefrom: chat.un, dj: dj, elogio: this.getElogio()}));
+                            return API.sendChat(subChat(basicBot.chat.prop, {namefrom: chat.un, dj: dj, prop: this.getProps()}));
                                 }
                     	       }
-                        }, 
+                        },         
+        
                        
             refreshCommand: {
                 command: 'refresh',
