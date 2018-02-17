@@ -34,6 +34,7 @@
         clearInterval(basicBot.room.autofbInterval);
         clearInterval(basicBot.room.autorouletteInterval);
         clearInterval(basicBot.room.autoregrasInterval);
+        clearInterval(basicBot.room.autodiscordInterval);
         basicBot.status = false;
     };
 
@@ -381,6 +382,12 @@
             autoregrasFunc: function () {
                 if (basicBot.status && basicBot.settings.autoregras) {
                     API.sendChat('!regras');
+                }
+            },
+            autodiscordInterval: null,
+            autodiscordFunc: function () {
+                if (basicBot.status && basicBot.settings.autodiscord) {
+                    API.sendChat('!discord');
                 }
             },
             queueing: 0,
@@ -1928,6 +1935,11 @@
                         if (basicBot.settings.autoregras) msg += 'ON';
                         else msg += 'OFF';
                         msg += '. ';
+                      
+                        msg += basicBot.chat.autodiscord + ': ';
+                        if (basicBot.settings.autodiscord) msg += 'ON';
+                        else msg += 'OFF';
+                        msg += '. ';
 
                         if (msg.length > 250){
                         var split = msg.match(/.{1,250}/g);
@@ -1943,6 +1955,27 @@
                         else {
                             return API.sendChat(msg);
                         }
+                    }
+                }
+            },
+         
+            autodiscordCommand: {
+                command: 'autodiscord',
+                rank: 'manager',
+                type: 'exact',
+                functionality: function (chat, cmd) {
+                    if (this.type === 'exact' && chat.message.length !== cmd.length) return void (0);
+                    if (!basicBot.commands.executable(this.rank, chat)) return void (0);
+                    else {
+                        if (basicBot.settings.autodiscord) {
+                            basicBot.settings.autodiscord = !basicBot.settings.autodiscord;
+                            return API.sendChat(subChat(basicBot.chat.toggleoff, {name: chat.un, 'function': basicBot.chat.autodiscord}));
+                        }
+                        else {
+                            basicBot.settings.autodiscord = !basicBot.settings.autodiscord;
+                            return API.sendChat(subChat(basicBot.chat.toggleon, {name: chat.un, 'function': basicBot.chat.autodiscord}));
+                        }
+
                     }
                 }
             },
