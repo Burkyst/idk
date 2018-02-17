@@ -308,5 +308,5 @@
     "eatxaveco":"/me amei o xaveco. :hearts:",
     "nouserxaveco":"/em Não vejo %%NAME%% na sala. Não tem xaveco pra você hoje.",
     "selfxaveco":"/me @%%NAME%%, você é mesquinho, né? Ou amor próprio demais pra se xavecar. Xaveque alguém que você ama!",
-    "xaveco":"/me @%%NAMETO%%, %%NAMEFROM%% mandou um xaveco pra você: %%XAVECO%%"
+    "xaveco":"/me @%%NAMETO%%, %%NAMEFROM%% mandou um xaveco pra você %%XAVECO%%"
 }
