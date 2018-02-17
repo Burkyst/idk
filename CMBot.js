@@ -4363,9 +4363,9 @@
                 }
             },
             xavecoCommand: {
-             command: ['xavecar','derreter'],
+             command: ['xavecar','derreter','xaveco','chavecar'],
                 rank: 'user',
-                type: 'startsWith',
+                type: 'exact',
                 getXaveco :function(chat) {
                     var p = Math.floor(Math.random() * basicBot.chat.xaveco.length);
                     return basicBot.chat.xaveco[p];
@@ -4392,7 +4392,7 @@
                                     name: name
                                 }));
                             } else {
-                                return API.sendChat(subChat(basicBot.chat.xaveco, {
+                                return API.sendChat(subChat(basicBot.chat.xavecos, {
                                     nameto: user.username,
                                     namefrom: chat.un,
                                     xaveco: this.getXaveco()
