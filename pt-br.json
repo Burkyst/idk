@@ -305,9 +305,8 @@
     "selfcantadas": "\/me",
     "cantadas": "\/me %%NAMEFROM%% lança uma cantada infalível para @%%NAMETO%%: %%CANTADAS%% ",
     "kiss": "\/me %%NAMEFROM%% %%KISS%% @%%NAMETO%% :kiss:",
-    "botXaveco":"/me Ama xaveco. :hearts:",
-    "nouserXaveco": "\/me N\u00e3o vejo %%NAME%% na sala.",
-    "selfXaveco": "\/me @%%NAME%% tem muito xaveco próprio, xaveque alguém próximo a você.",
-    "xavecos": "\/me %%NAMEFROM%% manda um xaveco para @%%NAMETO%%: %%XAVECO%%"
-   
+    "eatxaveco":"/me amei o xaveco. :hearts:",
+    "nouserxaveco":"/em Não vejo %%NAME%% na sala. Não tem xaveco pra você hoje.",
+    "selfxaveco":"/me @%%NAME%%, você é mesquinho, né? Ou amor próprio demais pra se xavecar. Xaveque alguém que você ama!",
+    "xaveco":"/me @%%NAMETO%%, %%NAMEFROM%% mandou um xaveco pra você: %%XAVECO%%"
 }
