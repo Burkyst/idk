@@ -299,9 +299,9 @@
     "selfcantadas": "\/me",
     "cantadas": "\/me %%NAMEFROM%% lança uma cantada: %%CANTADAS%% @%%NAMETO%%",
     "kiss": "\/me %%NAMEFROM%% %%KISS%% @%%NAMETO%% :kiss:",
-    "eatxavecos": "\/me",
-    "nouserxaveco": "\/me N\u00e3o vejo %%NAME%% na sala.",
-    "selfxaveco": "\/me",
-    "xaveco": "\/me %%NAMEFROM%% lança um xaveco: %%XAVECO%% @%%NAMETO%%"
+    "botXaveco":"/me Ama xaveco. :hearts:",
+    "nouserXaveco": "\/me N\u00e3o vejo %%NAME%% na sala.",
+    "selfXaveco": "\/me @%%NAME%% tem muito xaveco próprio, xaveque alguém próximo a você.",
+    "xavecos": "\/me %%NAMEFROM%% lança um xaveco para @%%NAMETO%%: %%XAVECO%%"
    
 }
