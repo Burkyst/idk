@@ -4419,7 +4419,7 @@
                 command: ['xavecar','xaveco','derreter','chavecar','chaveco'],
                 rank: 'user',
                 type: 'startsWith',
-                getXaveco: function(chat) {
+                getXavecos: function(chat) {
                     var c = Math.floor(Math.random() * basicBot.chat.xavecos.length);
                     return basicBot.chat.xavecos[c];
                 },
@@ -4448,7 +4448,7 @@
                                 return API.sendChat(subChat(basicBot.chat.xaveco, {
                                     nameto: user.username,
                                     namefrom: chat.un,
-                                    xaveco: this.getXaveco()
+                                    xaveco: this.getXavecos()
                                 }));
                             }
                         }
