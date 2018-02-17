@@ -3040,8 +3040,9 @@
                                 return API.sendChat(subChat(basicBot.chat.nousercantada, {
                                     name: name
                                 }));
+                      
                             } else if (user.username === chat.un) {
-                                return API.sendChat(subChat(basicBot.chat.cantada, {
+                                return API.sendChat(subChat(basicBot.chat.selfcantada, {
                                     name: name
                                 }));
                             } else {
