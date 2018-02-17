@@ -4420,8 +4420,8 @@
                 rank: 'user',
                 type: 'startsWith',
                 getXaveco: function(chat) {
-                    var c = Math.floor(Math.random() * basicBot.chat.xaveco.length);
-                    return basicBot.chat.xaveco[c];
+                    var c = Math.floor(Math.random() * basicBot.chat.xavecos.length);
+                    return basicBot.chat.xavecos[c];
                 },
                 functionality: function(chat, cmd) {
                     if (this.type === 'exact' && chat.message.length !== cmd.length) return void(0);
