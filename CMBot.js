@@ -4455,47 +4455,7 @@
                     }
                 }
             },
-            xavecoCommand: {
-             command: ['xavecar','derreter','xaveco','chavecar'],
-                rank: 'user',
-                type: 'exact',
-                getXaveco :function(chat) {
-                    var p = Math.floor(Math.random() * basicBot.chat.xaveco.length);
-                    return basicBot.chat.xaveco[p];
-                },
-                functionality: function(chat, cmd) {
-                    if (this.type === 'exact' && chat.message.length !== cmd.length) return void(0);
-                    if (!basicBot.commands.executable(this.rank, chat)) return void(0);
-                    else {
-                        var msg = chat.message;
-
-                        var space = msg.indexOf(' ');
-                        if (space === -1) {
-                            API.sendChat(basicBot.chat.botXaveco);
-                            return false;
-                        } else {
-                            var name = msg.substring(space + 2);
-                            var user = basicBot.userUtilities.lookupUserName(name);
-                            if (user === false || !user.inRoom) {
-                                return API.sendChat(subChat(basicBot.chat.nouserXaveco, {
-                                    name: name
-                                }));
-                            } else if (user.username === chat.un) {
-                                return API.sendChat(subChat(basicBot.chat.selfXaveco, {
-                                    name: name
-                                }));
-                            } else {
-                                return API.sendChat(subChat(basicBot.chat.xavecos, {
-                                    nameto: user.username,
-                                    namefrom: chat.un,
-                                    xaveco: this.getXaveco()
-                                }));
-                            }
-                        }
-                    }
-                }
-            },
-
+            
             websiteCommand: {
                 command: 'website',
                 rank: 'user',
