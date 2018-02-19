@@ -325,7 +325,7 @@
             rulesLink: null,
             themeLink: null,
             fbLink: null,
-            discordLink: 'https://discord.gg/xVEZ3ZK',
+            discordLink: 'https://discord.gg/CvXGJJY',
             emotesLink: null,
             youtubeLink: null,
             website: null,
