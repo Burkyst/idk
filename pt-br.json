@@ -88,13 +88,13 @@
         "Música linda mesmo!"
     ],
     "kisses": [
-        "um beijo molhado",
-        "um selinho",
+        "beijo molhado",
+        "selinho",
         "beijo com mordidinha",
         "beijo de esquimó",
         "beijo apaixonado",
         "beijo na testa",
-        "um beijo quente",
+        "beijo quente",
         "beijo na bochecha",
         "beijo carinhoso"
     ],
@@ -304,7 +304,7 @@
     "nousercantada": "\/me N\u00e3o vejo %%NAME%% na sala.",
     "selfcantada": "\/me amo me cantar.",
     "cantada": "\/me %%NAMEFROM%% lança uma cantada infalível para @%%NAMETO%%: %%CANTADA%% ",
-    "kiss": "\/me %%NAMEFROM%% deu %%KISS%% em @%%NAMETO%% :kiss:",
+    "kiss": "\/me %%NAMEFROM%% deu um %%KISS%% em @%%NAMETO%% :kiss:",
     "eatxaveco":"/me ama xaveco. :hearts:",
     "nouserxaveco":"/em Não vejo %%NAME%% na sala. Não tem xaveco pra você hoje.",
     "selfxaveco":"/me @%%NAME%%, você é mesquinho, né? Ou amor próprio demais pra se xavecar. Xaveque alguém que você ama!",
